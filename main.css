@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chiroq {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 230px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.ranglar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: rgb(240, 99, 99);
+    animation: red 2s linear;
+}
+
+@keyframes red {
+    0% {
+        background-color: rgb(240, 99, 99);
+    }
+
+    33% {
+        background-color: red;
+    }
+
+    66% {
+        background-color: red;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
+
+.yellow {
+    background-color: rgb(254, 254, 134);
+    animation: yellow 4s linear;
+}
+
+@keyframes yellow {
+    0% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    33% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    66% {
+        background-color: yellow;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
+
+.green {
+    background-color: green;
+    animation: green 6s linear;
+}
+
+@keyframes green {
+    0% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    33% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    66% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    100% {
+        background-color: rgb(12, 113, 12);
+    }
+}
+
+.stoyka {
+    width: 40px;
+    height: 250px;
+    background-color: rgb(143, 141, 141);
+    margin: 0 auto;
+}
+
+.yol {
+    width: 1550px;
+    height: 20px;
+    background-color: rgb(44, 42, 42);
+}
+
+.car {
+    position: absolute;
+    width: 300px;
+    margin-top: 392px;
+    animation: car 7s linear;
+}
+
+@keyframes car {
+    0%{
+        margin-left: 0px;
+    }
+    20%{
+        margin-left: 10px;
+    }
+    40%{
+        margin-left: 20px;
+    }
+    60%{
+        margin-left: 30px;
+    }
+    80%{
+        margin-left: 40px;
+    }
+    100%{
+        margin-left: 1280px;
+    }
+}
