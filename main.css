@@ -26,30 +26,82 @@
 
 .red {
     background-color: rgb(240, 99, 99);
-    animation: red 2s linear;
+    animation: red 10s linear;
 }
 
 @keyframes red {
     0% {
+        background-color: red;
+    }
+
+    10% {
+        background-color: red;
+    }
+
+    20% {
+        background-color: red;
+    }
+
+    30% {
         background-color: rgb(240, 99, 99);
     }
 
-    33% {
+    40% {
+        background-color: rgb(240, 99, 99);
+    }
+
+    45% {
+        background-color: rgb(240, 99, 99);
+    }
+
+    50% {
+        background-color: rgb(240, 99, 99);
+    }
+
+    55% {
+        background-color: rgb(240, 99, 99);
+    }
+
+    60% {
         background-color: red;
     }
 
-    66% {
+    65% {
         background-color: red;
+    }
+
+    70% {
+        background-color: red;
+    }
+
+    75% {
+        background-color: red;
+    }
+
+    80% {
+        background-color: red;
+    }
+
+    85% {
+        background-color: rgb(240, 99, 99);;
+    }
+
+    90% {
+        background-color: rgb(240, 99, 99);;
+    }
+
+    95% {
+        background-color: rgb(240, 99, 99);;
     }
 
     100% {
-        background-color: red;
+        background-color: rgb(240, 99, 99);;
     }
 }
 
 .yellow {
     background-color: rgb(254, 254, 134);
-    animation: yellow 4s linear;
+    animation: yellow 10s linear;
 }
 
 @keyframes yellow {
@@ -57,22 +109,74 @@
         background-color: rgb(254, 254, 152);
     }
 
-    33% {
+    10% {
         background-color: rgb(254, 254, 152);
     }
 
-    66% {
+    20% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    30% {
         background-color: yellow;
     }
 
-    100% {
+    40% {
         background-color: yellow;
+    }
+
+    45% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    50% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    55% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    60% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    65% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    70% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    75% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    80% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    85% {
+        background-color: yellow;
+    }
+
+    90% {
+        background-color: yellow;
+    }
+
+    95% {
+        background-color: rgb(254, 254, 152);
+    }
+
+    100% {
+        background-color: rgb(254, 254, 152);
     }
 }
 
 .green {
     background-color: green;
-    animation: green 6s linear;
+    animation: green 10s linear;
 }
 
 @keyframes green {
@@ -80,17 +184,73 @@
         background-color: rgb(127, 224, 127);
     }
 
-    33% {
+    10% {
         background-color: rgb(127, 224, 127);
     }
 
-    66% {
+    20% {
         background-color: rgb(127, 224, 127);
     }
 
+    30% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    35% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    40% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    45% {
+        background-color: green;
+    }
+
+    50% {
+        background-color: green;
+    }
+
+    55% {
+        background-color: green;
+    }
+
+    60% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    65% {
+        background-color: rgb(127, 224, 127);
+    }
+
+    70% {
+        background-color: rgb(127, 224, 127);
+    }
+    75% {
+        background-color: rgb(127, 224, 127);
+    }
+    80% {
+        background-color: rgb(127, 224, 127);
+    }
+    85% {
+        background-color: rgb(127, 224, 127);
+    }
+    90% {
+        background-color: rgb(127, 224, 127);
+    }
+    95% {
+        background-color: rgb(12, 113, 12);
+    }
     100% {
         background-color: rgb(12, 113, 12);
     }
+
+
+
+
+
+
 }
 
 .stoyka {
@@ -110,26 +270,64 @@
     position: absolute;
     width: 300px;
     margin-top: 392px;
-    animation: car 7s linear;
+    animation: car 10s linear;
 }
 
 @keyframes car {
     0%{
         margin-left: 0px;
     }
+    10%{
+        margin-left: 0px;
+    }
     20%{
-        margin-left: 10px;
+        margin-left: 0px;
+    }
+    30%{
+        margin-left: 0px;
     }
     40%{
-        margin-left: 20px;
+        margin-left: 0px;
     }
+    50%{
+        margin-left: 0px;
+    }
+
     60%{
-        margin-left: 30px;
+        margin-left: 400px;
     }
+
+    65%{
+        margin-left: 400px;
+    }
+
+    70%{
+        margin-left: 400px;
+    }
+
+    75%{
+        margin-left: 400px;
+    }
+
     80%{
-        margin-left: 40px;
+        margin-left: 400px;
     }
+
+    85%{
+        margin-left: 400px;
+    }
+
+    90%{
+        margin-left: 400px;
+    }
+
+    95%{
+        margin-left: 400px;
+    }
+
     100%{
         margin-left: 1280px;
     }
+
+
 }
